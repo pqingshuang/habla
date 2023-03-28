@@ -1,5 +1,11 @@
 # habla
 
+TODO
+- [ ] + and - reaction
+- [ ] sorted by zap and +/-
+- [ ] Add tag for post
+- [ ] Change tag for comment
+
 A web client to read/write [long form nostr content](https://github.com/nostr-protocol/nips/blob/master/23.md).
 
 Available in https://habla.news.
