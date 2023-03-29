@@ -8,11 +8,16 @@ import Profile from "./pages/profile";
 import NProfile from "./pages/nprofile";
 import NPub from "./pages/npub";
 import Write from "./pages/write";
+import Qa from "./pages/qa"
 
 export default createBrowserRouter([
   {
     path: "/",
     element: <Home />,
+  },
+  {
+    path: "/qa",
+    element: <Qa />,
   },
   {
     path: "search",

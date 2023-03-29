@@ -7,6 +7,7 @@ import NostrContext from "./NostrContext";
 import theme from "./theme";
 import router from "./Router";
 
+
 function App() {
   return (
     <Provider store={store}>
