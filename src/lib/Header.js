@@ -108,6 +108,7 @@ function RelaySelector(props) {
 export default function Header() {
   const loc = useLocation();
   const isHomePage = loc.pathname === "/" || loc.pathname === "";
+  const isQAPage = loc.pathname === "/qa";
   return (
     <Flex alignItems="center" justifyContent="space-between" as="header" p={4}>
       <Link to="/">
@@ -118,7 +119,7 @@ export default function Header() {
           Habla
         </Heading>
       </Link>
-      {isHomePage && <RelaySelector ml={2} />}
+      {(isQAPage || isHomePage) && <RelaySelector ml={2} />}
       <Login />
     </Flex>
   );

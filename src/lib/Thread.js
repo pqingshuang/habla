@@ -178,7 +178,7 @@ export default function Thread({ isBounty, event }) {
   const naddr = eventAddress(event);
   const root = useNostrEvents({
     filter: {
-      kinds: [1],
+      kinds: [30023],
       "#a": [naddr],
     },
   });
